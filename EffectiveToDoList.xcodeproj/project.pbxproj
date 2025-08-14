@@ -11,7 +11,6 @@
 		93129BE92E417E9800868386 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93129BE82E417E9800868386 /* SceneDelegate.swift */; };
 		93129BF02E417E9A00868386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93129BEF2E417E9A00868386 /* Assets.xcassets */; };
 		93129BF32E417E9A00868386 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 93129BF22E417E9A00868386 /* Base */; };
-		93129BFE2E417E9B00868386 /* EffectiveToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93129BFD2E417E9B00868386 /* EffectiveToDoListTests.swift */; };
 		93129C082E417E9B00868386 /* EffectiveToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93129C072E417E9B00868386 /* EffectiveToDoListUITests.swift */; };
 		93129C0A2E417E9B00868386 /* EffectiveToDoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93129C092E417E9B00868386 /* EffectiveToDoListUITestsLaunchTests.swift */; };
 		93129C172E4247FE00868386 /* TodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93129C162E4247FE00868386 /* TodoDetailView.swift */; };
@@ -77,6 +76,19 @@
 		934D19A62E4D754E001A7176 /* TodoListInteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D19A42E4D754E001A7176 /* TodoListInteractorImpl.swift */; };
 		934D19A82E4D7585001A7176 /* TodoListRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D19A72E4D7585001A7176 /* TodoListRouterImpl.swift */; };
 		934D19A92E4D7585001A7176 /* TodoListRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D19A72E4D7585001A7176 /* TodoListRouterImpl.swift */; };
+		934D19AE2E4E509D001A7176 /* MockTodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D19AD2E4E509D001A7176 /* MockTodoListView.swift */; };
+		934D19B02E4E50BC001A7176 /* MockTodoListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D19AF2E4E50BC001A7176 /* MockTodoListInteractor.swift */; };
+		934D19B22E4E50E8001A7176 /* MockTodoListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D19B12E4E50E8001A7176 /* MockTodoListRouter.swift */; };
+		934D19B42E4E510E001A7176 /* MockTodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D19B32E4E510E001A7176 /* MockTodoDetailView.swift */; };
+		934D19B62E4E512F001A7176 /* MockTodoDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D19B52E4E512F001A7176 /* MockTodoDetailPresenter.swift */; };
+		934D19B82E4E52A0001A7176 /* MockTodoDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D19B72E4E52A0001A7176 /* MockTodoDetailInteractor.swift */; };
+		934D19BA2E4E538E001A7176 /* MockTodoListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D19B92E4E538E001A7176 /* MockTodoListPresenter.swift */; };
+		934D19BE2E4E5431001A7176 /* TodoDetailPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D19BD2E4E5431001A7176 /* TodoDetailPresenterTests.swift */; };
+		934D19C02E4E55BB001A7176 /* TodoDetailInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D19BF2E4E55BB001A7176 /* TodoDetailInteractorTests.swift */; };
+		934D19C32E4E569C001A7176 /* MockTodoDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D19C22E4E569C001A7176 /* MockTodoDataProvider.swift */; };
+		934D19C52E4E5817001A7176 /* TodoListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D19C42E4E5817001A7176 /* TodoListInteractorTests.swift */; };
+		934D19C72E4E58A5001A7176 /* MockTodoNetworkDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D19C62E4E58A5001A7176 /* MockTodoNetworkDataProvider.swift */; };
+		934D19C92E4E5E2B001A7176 /* TodoListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D19C82E4E5E2B001A7176 /* TodoListPresenterTests.swift */; };
 		936271292E48237A00B1B477 /* TodoEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936271272E48237A00B1B477 /* TodoEntity+CoreDataClass.swift */; };
 		9362712A2E48237A00B1B477 /* TodoEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936271282E48237A00B1B477 /* TodoEntity+CoreDataProperties.swift */; };
 		9362712D2E49FBFF00B1B477 /* TodoEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936271282E48237A00B1B477 /* TodoEntity+CoreDataProperties.swift */; };
@@ -108,7 +120,6 @@
 		93129BF22E417E9A00868386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93129BF42E417E9A00868386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93129BF92E417E9B00868386 /* EffectiveToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectiveToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		93129BFD2E417E9B00868386 /* EffectiveToDoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveToDoListTests.swift; sourceTree = "<group>"; };
 		93129C032E417E9B00868386 /* EffectiveToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectiveToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93129C072E417E9B00868386 /* EffectiveToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveToDoListUITests.swift; sourceTree = "<group>"; };
 		93129C092E417E9B00868386 /* EffectiveToDoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveToDoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -144,6 +155,19 @@
 		934D19A12E4D751D001A7176 /* TodoListPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListPresenterImpl.swift; sourceTree = "<group>"; };
 		934D19A42E4D754E001A7176 /* TodoListInteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListInteractorImpl.swift; sourceTree = "<group>"; };
 		934D19A72E4D7585001A7176 /* TodoListRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListRouterImpl.swift; sourceTree = "<group>"; };
+		934D19AD2E4E509D001A7176 /* MockTodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTodoListView.swift; sourceTree = "<group>"; };
+		934D19AF2E4E50BC001A7176 /* MockTodoListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTodoListInteractor.swift; sourceTree = "<group>"; };
+		934D19B12E4E50E8001A7176 /* MockTodoListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTodoListRouter.swift; sourceTree = "<group>"; };
+		934D19B32E4E510E001A7176 /* MockTodoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTodoDetailView.swift; sourceTree = "<group>"; };
+		934D19B52E4E512F001A7176 /* MockTodoDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTodoDetailPresenter.swift; sourceTree = "<group>"; };
+		934D19B72E4E52A0001A7176 /* MockTodoDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTodoDetailInteractor.swift; sourceTree = "<group>"; };
+		934D19B92E4E538E001A7176 /* MockTodoListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTodoListPresenter.swift; sourceTree = "<group>"; };
+		934D19BD2E4E5431001A7176 /* TodoDetailPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailPresenterTests.swift; sourceTree = "<group>"; };
+		934D19BF2E4E55BB001A7176 /* TodoDetailInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailInteractorTests.swift; sourceTree = "<group>"; };
+		934D19C22E4E569C001A7176 /* MockTodoDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTodoDataProvider.swift; sourceTree = "<group>"; };
+		934D19C42E4E5817001A7176 /* TodoListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListInteractorTests.swift; sourceTree = "<group>"; };
+		934D19C62E4E58A5001A7176 /* MockTodoNetworkDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTodoNetworkDataProvider.swift; sourceTree = "<group>"; };
+		934D19C82E4E5E2B001A7176 /* TodoListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListPresenterTests.swift; sourceTree = "<group>"; };
 		936271272E48237A00B1B477 /* TodoEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		936271282E48237A00B1B477 /* TodoEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -213,7 +237,11 @@
 		93129BFC2E417E9B00868386 /* EffectiveToDoListTests */ = {
 			isa = PBXGroup;
 			children = (
-				93129BFD2E417E9B00868386 /* EffectiveToDoListTests.swift */,
+				934D19BD2E4E5431001A7176 /* TodoDetailPresenterTests.swift */,
+				934D19BF2E4E55BB001A7176 /* TodoDetailInteractorTests.swift */,
+				934D19C42E4E5817001A7176 /* TodoListInteractorTests.swift */,
+				934D19C82E4E5E2B001A7176 /* TodoListPresenterTests.swift */,
+				934D19AC2E4E5083001A7176 /* Mocks */,
 			);
 			path = EffectiveToDoListTests;
 			sourceTree = "<group>";
@@ -342,6 +370,46 @@
 				93129C5C2E453F8700868386 /* TodoNetworkDataProvider.swift */,
 			);
 			path = Providers;
+			sourceTree = "<group>";
+		};
+		934D19AC2E4E5083001A7176 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				934D19C12E4E5688001A7176 /* DataProviders */,
+				934D19BB2E4E53E4001A7176 /* TodoList module */,
+				934D19BC2E4E53F7001A7176 /* TodoDetail module */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		934D19BB2E4E53E4001A7176 /* TodoList module */ = {
+			isa = PBXGroup;
+			children = (
+				934D19AD2E4E509D001A7176 /* MockTodoListView.swift */,
+				934D19B92E4E538E001A7176 /* MockTodoListPresenter.swift */,
+				934D19AF2E4E50BC001A7176 /* MockTodoListInteractor.swift */,
+				934D19B12E4E50E8001A7176 /* MockTodoListRouter.swift */,
+			);
+			path = "TodoList module";
+			sourceTree = "<group>";
+		};
+		934D19BC2E4E53F7001A7176 /* TodoDetail module */ = {
+			isa = PBXGroup;
+			children = (
+				934D19B32E4E510E001A7176 /* MockTodoDetailView.swift */,
+				934D19B52E4E512F001A7176 /* MockTodoDetailPresenter.swift */,
+				934D19B72E4E52A0001A7176 /* MockTodoDetailInteractor.swift */,
+			);
+			path = "TodoDetail module";
+			sourceTree = "<group>";
+		};
+		934D19C12E4E5688001A7176 /* DataProviders */ = {
+			isa = PBXGroup;
+			children = (
+				934D19C22E4E569C001A7176 /* MockTodoDataProvider.swift */,
+				934D19C62E4E58A5001A7176 /* MockTodoNetworkDataProvider.swift */,
+			);
+			path = DataProviders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -521,25 +589,35 @@
 				93129C3A2E44FC0E00868386 /* TodoCoreDataManager.swift in Sources */,
 				93129C1E2E4248C700868386 /* TodoDetailInteractor.swift in Sources */,
 				93129C762E45704F00868386 /* UITableView+Extensions.swift in Sources */,
+				934D19B22E4E50E8001A7176 /* MockTodoListRouter.swift in Sources */,
+				934D19B62E4E512F001A7176 /* MockTodoDetailPresenter.swift in Sources */,
 				93129C472E452CD200868386 /* TodoListDTO.swift in Sources */,
+				934D19B82E4E52A0001A7176 /* MockTodoDetailInteractor.swift in Sources */,
 				93129C4D2E452D2900868386 /* TodoDTO.swift in Sources */,
+				934D19C32E4E569C001A7176 /* MockTodoDataProvider.swift in Sources */,
 				9362712D2E49FBFF00B1B477 /* TodoEntity+CoreDataProperties.swift in Sources */,
+				934D19BA2E4E538E001A7176 /* MockTodoListPresenter.swift in Sources */,
 				93129C792E45749500868386 /* UILabel+Extensions.swift in Sources */,
 				934D198E2E4CE4A7001A7176 /* String+Extensions.swift in Sources */,
 				934D19942E4D73B4001A7176 /* TodoDetailViewImpl.swift in Sources */,
 				93129C342E44F93100868386 /* Todo.xcdatamodeld in Sources */,
 				93129C672E45657300868386 /* TodoListView.swift in Sources */,
+				934D19AE2E4E509D001A7176 /* MockTodoListView.swift in Sources */,
+				934D19B02E4E50BC001A7176 /* MockTodoListInteractor.swift in Sources */,
 				93129C732E45700500868386 /* TodoListCell.swift in Sources */,
 				934D19A32E4D751D001A7176 /* TodoListPresenterImpl.swift in Sources */,
 				934D19A62E4D754E001A7176 /* TodoListInteractorImpl.swift in Sources */,
+				934D19C92E4E5E2B001A7176 /* TodoListPresenterTests.swift in Sources */,
 				93129C702E456CF300868386 /* TodoListRouter.swift in Sources */,
+				934D19B42E4E510E001A7176 /* MockTodoDetailView.swift in Sources */,
 				934D199A2E4D742D001A7176 /* TodoDetailInteractorImpl.swift in Sources */,
+				934D19C52E4E5817001A7176 /* TodoListInteractorTests.swift in Sources */,
 				934D19A02E4D74A8001A7176 /* TodoListViewImpl.swift in Sources */,
 				93129C2F2E44F40D00868386 /* Date+Extensions.swift in Sources */,
 				93129C1B2E42484F00868386 /* TodoDetailPresenter.swift in Sources */,
+				934D19C72E4E58A5001A7176 /* MockTodoNetworkDataProvider.swift in Sources */,
 				93129C642E45627400868386 /* TodoList.swift in Sources */,
 				934D19912E4D4BE8001A7176 /* UITextField+Extensions.swift in Sources */,
-				93129BFE2E417E9B00868386 /* EffectiveToDoListTests.swift in Sources */,
 				93129C6A2E45662600868386 /* TodoListPresenter.swift in Sources */,
 				93129C582E453C9800868386 /* TodoDataProvider.swift in Sources */,
 				9362712E2E49FBFF00B1B477 /* TodoEntity+CoreDataClass.swift in Sources */,
@@ -547,6 +625,8 @@
 				93129C5E2E453F8700868386 /* TodoNetworkDataProvider.swift in Sources */,
 				93129C442E452AE600868386 /* TodoNetworkManager.swift in Sources */,
 				93129C282E424D9E00868386 /* TodoDetailModule.swift in Sources */,
+				934D19C02E4E55BB001A7176 /* TodoDetailInteractorTests.swift in Sources */,
+				934D19BE2E4E5431001A7176 /* TodoDetailPresenterTests.swift in Sources */,
 				93129C7C2E45778100868386 /* UIImage+Extensions.swift in Sources */,
 				93129C6D2E45669A00868386 /* TodoListInteractor.swift in Sources */,
 				934D19A92E4D7585001A7176 /* TodoListRouterImpl.swift in Sources */,
